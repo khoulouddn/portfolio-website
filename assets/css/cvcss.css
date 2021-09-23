@@ -22,7 +22,7 @@ body{
     max-width: 1000px;
     min-height: 1000px;
     margin: 50px;
-    background: #fff;
+    background: hsl(249, 15%, 74%);
     display: grid;
     grid-template-columns: 1fr 2fr;
     box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
@@ -104,11 +104,11 @@ body{
      display: inline-block;
      width: 30px;
      font-size: 18px;
-     color: black;
+     color: hsl(250, 28%, 12%);
  }
 
  .info ul li span {
-     color: black;
+     color: hsl(250, 28%, 12%);
      font-weight: 200;
  }
 
@@ -137,12 +137,27 @@ body{
 
  .title2{
     color:hsl(250, 69%, 61%) ;
-    font-weight: 100;
+    font-weight: 300;
+    font-size: 18px;
 }
 
 .rsdiv{
     border-radius: 15px;
-    background-color: #e5e5e5;
-    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
     padding: 15px;
+}
+
+p{
+    color: #333;
+    font-size: 15px;
+}
+
+.content{
+    position: relative;
+    width: 100%;
+    margin: 10px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+
 }
