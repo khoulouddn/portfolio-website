@@ -488,25 +488,28 @@ img{
 }
 
 .skills__html{
-    width: 90%;
+    width: 99%;
 }
 .skills__css{
-    width: 85%;
+    width: 95%;
 }
-.skills__react{
-    width: 60%;
+.skills__boos{
+    width: 80%;
+}
+.skills__js{
+    width: 75%;
 }
 .skills__php{
     width: 90%;
 }
 .skills__python{
-    width: 55%;
-}
-.skills__java{
     width: 70%;
 }
+.skills__java{
+    width: 80%;
+}
 .skills__sql{
-    width: 60%;
+    width: 80%;
 }
 .skills__figma{
     width: 90%;
