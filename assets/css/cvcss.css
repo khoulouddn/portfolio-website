@@ -134,3 +134,15 @@ body{
     position: relative;
     padding: 40px;
  }
+
+ .title2{
+    color:hsl(250, 69%, 61%) ;
+    font-weight: 100;
+}
+
+.rsdiv{
+    border-radius: 15px;
+    background-color: #e5e5e5;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+}
