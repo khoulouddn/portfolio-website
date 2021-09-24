@@ -151,16 +151,22 @@ body{
 
 p{
     color: #333;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .content{
    column-count: 2;
    column-gap: 20px;
+   margin-bottom: -140px;
 }
 
 .cont{
     padding: 10px 0;
+}
+.cont span{
+    color:hsl(250, 28%, 12%);
+    font-size: 14px;
+    font-weight: 500;
 }
 .uicon{
     width: 50px;
