@@ -198,3 +198,13 @@ h4{
         column-count: 1;
      }
 }
+
+@media screen and (max-width:1000px){
+    .container{
+        margin: 10px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .content{
+        margin-bottom: 0;
+     }
+}
