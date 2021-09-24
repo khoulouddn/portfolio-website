@@ -137,14 +137,16 @@ body{
 
  .title2{
     color:hsl(250, 69%, 61%) ;
-    font-weight: 300;
+    font-weight: 800;
     font-size: 18px;
 }
 
 .rsdiv{
+    display: inline-block;
     border-radius: 15px;
     background-color: #fff;
     padding: 15px;
+    margin-top: 10px;
 }
 
 p{
@@ -153,11 +155,37 @@ p{
 }
 
 .content{
-    position: relative;
-    width: 100%;
-    margin: 10px 0;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 15px;
+   column-count: 2;
+   column-gap: 20px;
+}
 
+.cont{
+    padding: 10px 0;
+}
+.uicon{
+    width: 50px;
+    height: 50px;
+    shape-outside: circle(50%);
+    float: right;
+    margin-top: 6px;
+}
+.eicon{
+    width: 40px;
+    height: 40px;
+    shape-outside: circle(50%);
+    float: right;
+    margin-top: 6px;
+    border-radius: 50%;
+}
+h4{
+    color: hsl(250, 28%, 12%);
+    font-weight: 700;
+    font-size: 16px;
+    font-style: bold;
+}
+
+@media screen and (max-width:760px){
+    .content{
+        column-count: 1;
+     }
 }
