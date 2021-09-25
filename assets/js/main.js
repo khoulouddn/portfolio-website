@@ -106,7 +106,6 @@ function scrollActive(){
 }
 window.addEventListener('scroll', scrollActive)
 
-
 /*==================== CHANGE BACKGROUND HEADER ====================*/
 function scrollHeader(){
     const nav = document.getElementById('header')
