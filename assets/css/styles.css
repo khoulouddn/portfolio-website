@@ -339,6 +339,7 @@ img{
  
  .button:hover{
     background-color: var(--first-color-alt);
+    cursor: pointer;
  }
  
  .button__icon{
@@ -375,7 +376,35 @@ img{
  .button--white:hover{
     background-color: #FFF;
  }
- 
+ #status{
+     text-align: center;
+     border-radius: 8px;
+     padding: 10px;
+ }
+ #status.success{
+     background-color: rgb(44, 190, 24);
+     animation: status 4s ease forwards;
+     color: white;
+ }
+ #status.error{
+    background-color: rgb(165, 37, 37);
+    animation: status 4s ease forwards;
+    color: white;
+}
+@keyframes status{
+    0%{
+        opacity: 1;
+        pointer-events: all;
+    }
+    90%{
+        opacity: 1;
+        pointer-events: all;
+    }
+    100%{
+        opacity: 0;
+        pointer-events: none;
+    }
+}
  /*==================== ABOUT ====================*/
  .about__img{
      width: 200px;
