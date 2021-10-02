@@ -146,7 +146,7 @@ body{
     border-radius: 15px;
     background-color: #fff;
     padding: 15px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 p{
@@ -157,7 +157,7 @@ p{
 .content{
    column-count: 2;
    column-gap: 20px;
-   margin-bottom: -140px;
+   margin-bottom: -160px;
 }
 
 .cont{
