@@ -20,8 +20,8 @@ body{
     position: relative;
     width: 100%;
     max-width: 1000px;
-    min-height: 1200px;
-    margin: 50px;
+    min-height: 1000px;
+    margin: 50px 50px 60px 50px;
     background: hsl(249, 15%, 74%);
     display: grid;
     grid-template-columns: 1fr 2fr;
